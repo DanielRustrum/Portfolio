@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+footer {
+    height: 200px;
+    background-color: #555;
+}
+
+contact {
+    width: 49%;
+    float: left;
+}
+
+social {
+    width: 49%;
+    float: right;
+}
+
+social > linked-in {
+    margin-right: 10%;
+}
