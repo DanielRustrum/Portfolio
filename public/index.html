@@ -9,43 +9,80 @@
     <title>Daniel Rustrum</title>
 </head>
 <body>
-    <header></header>
-    <bio></bio>
-    <info></info>
+    <header>
+        <h1>Hello! I am Daniel Rustrum</h1>
+        <summary name="">
+            <summary-image>
+                <image src="" alt="summary image"></image>
+            </summary-image>
+            <summary-text>
+                Some Text
+            </summary-text>
+        </summary>
+    </header>
+    <bio>
+        <h2>About Me</h2>
+        <bio-image>
+            <image src="" alt="bio image"></image>
+        </bio-image>
+        <bio-text>
+            some stuff about me
+        </bio-text>
+    </bio>
+    <info>
+        <h2>My Skills and History</h2>
+        <timeline>
+            <h3>Timeline</h3>
+        </timeline>
+        <achievements>
+            <h3>Achievements</h3>
+        </achievements>
+        <proficencies>
+            <h3>Proficiencies</h3>
+        </proficencies>
+    </info>
     <footer>
-    <contact>
+        <contact>
             <h3>Get a Hold of Me</h3>
             <email>
                 <img src="" alt="email logo">
                 danieltrustrum@gmail.com
             </email>
             <br>Or Fill out the form below<br>
-            <contact-form>
-                <contact-text>Respond Location</contact-text>
+            <contact-form role="form">
+                <label>Respond Location</label>
                 <input type="text" name="return" placeholder="Where Do I respond?" id="return">
-                <contact-text>Message</contact-text>
+                <label>Message</label>
                 <input type="text" name="message" placeholder="Message" id="message">
-                <button>Send Message</button>                
+                <button submit-button>Send Message</button>                
             </contact-form>
         </contact>
         <social>
             <h3>Check More Out</h3>
-            <linked-in>
-                <img src="" alt="linked-in logo">
-                <social-text>Linked-in</social-text>
-            </linked-in>
-            <medium>
-                <img src="" alt="medium logo">
-                <social-text>Medium</social-text>
-            </medium>
-            <github>
-                <img src="" alt="github logo">
-                <social-text>Github</social-text>
-            </github>
-            <hack-the-box>
-                <img src="" alt="hack the box logo">
-                <social-text>Hack The Box</social-text>
-            </hack-the-box>
+            <a href="https://www.linkedin.com/in/daniel-rustrum-771506117">
+                <linked-in>
+                    <img src="" alt="linked-in logo">
+                    <social-text>Linked-in</social-text>
+                </linked-in>
+            </a>
+            <a href="https://medium.com/@danieltrustrum">
+                <medium>
+                    <img src="" alt="medium logo">
+                    <social-text>Medium</social-text>
+                </medium>
+            </a>
+            <a href="https://github.com/DanielRustrum">
+                <github>
+                    <img src="" alt="github logo">
+                    <social-text>Github</social-text>
+                </github>
+            </a>
+            <a href="https://www.hackthebox.eu/home/users/profile/104385">
+                <hack-the-box>
+                    <img src="" alt="hack the box logo">
+                    <social-text>Hack The Box</social-text>
+                </hack-the-box>
+            </a>
         </social>
     </footer>
     <script src="./anime.min.js"></script>
