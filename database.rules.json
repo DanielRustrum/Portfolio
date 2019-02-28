@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "achievements": {
+      ".read": "true",
+      ".write": "false"
+    },
+    "bio": {
+      ".read": "true",
+      ".write": "false"
+    },
+    "summary": {
+      ".read": "true",
+      ".write": "false"
+    },
+    "timeline": {
+      ".read": "true",
+      ".write": "false"
+    },
+    "contact": {
+      ".read": "false",
+      ".write": "true"
+    }
+  }
+}
