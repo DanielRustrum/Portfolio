@@ -1,2 +1,4 @@
 deploy\__pycache__
 dist
+deploy/__pycache__/handlebars.cpython-38.pyc
+deploy/__pycache__/s3.cpython-38.pyc
