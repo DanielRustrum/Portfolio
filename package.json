@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio for me",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielRustrum/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Daniel Rustrum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielRustrum/Portfolio/issues"
+  },
+  "homepage": "https://github.com/DanielRustrum/Portfolio#readme",
+  "dependencies": {
+    "alpure": "0.0.6"
+  }
+}

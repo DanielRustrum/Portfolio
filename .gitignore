@@ -1,4 +1,2 @@
-ops\__pycache__
 dist
-ops/__pycache__/handlebars.cpython-38.pyc
-ops/__pycache__/s3.cpython-38.pyc
+node_modules/
