@@ -48,3 +48,4 @@
 /site/yarn-debug.log*
 /site/yarn-error.log*
 
+/app/services/firebase/_init.ts
